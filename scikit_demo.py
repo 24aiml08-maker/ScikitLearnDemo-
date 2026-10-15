@@ -11,8 +11,8 @@ model = LinearRegression()
 model.fit(hours, marks)
 
 # Step 4: Predict marks for 6 hours of study
-predicted_marks = model.predict([[6]])
+predicted_marks = model.predict([[7]])
 
 # Step 5: Display the result
-print("Hours studied:", 6)
+print("Hours studied:",7)
 print("Predicted marks:", predicted_marks[0])
